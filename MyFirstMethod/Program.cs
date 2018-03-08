@@ -9,6 +9,16 @@ namespace MyAula04
     class MyClass
     {
         /// <summary>
+        /// Meant to count incresingly from 0 to 10
+        /// </summary>
+        static void CountTo10()
+        {
+            for(int i= 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        /// <summary>
         /// Meant to count incresingly from 1 untill n.
         /// </summary>
         /// <param name="n">Number set by user, its the limit to count too.</param>
