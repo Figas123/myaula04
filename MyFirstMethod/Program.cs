@@ -18,14 +18,22 @@ namespace MyAula04
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Ate' que valor queres contar?");
-            string s = Console.ReadLine();
-            int nCount = Convert.ToInt32(s);
+            // Valor escrito pelo utilizador que define o limite da contagem
+            string s;
+            // Valor convertido do limite da contagem
+            int nCount;
+
+            Console.Write("Ate' que valor queres na 1º contagem? ");
+            s = Console.ReadLine();
+            nCount = Convert.ToInt32(s);
             Console.WriteLine("\n1º Contagem\n-------");
             CountToN(nCount);
             Console.WriteLine("-------");
-            Console.ReadKey();
-            Console.WriteLine("2º Contagem\n-------");
+
+            Console.Write("Ate' que valor queres na 2º contagem? ");
+            s = Console.ReadLine();
+            nCount = Convert.ToInt32(s);
+            Console.WriteLine("\n2º Contagem\n-------");
             CountToN(nCount);
             Console.WriteLine("\n");
             Console.ReadKey();
