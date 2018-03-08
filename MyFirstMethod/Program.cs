@@ -22,12 +22,10 @@ namespace MyAula04
         /// <summary>
         /// The body of the program, where the program starts and ends.
         /// </summary>
-        /// <param name="args">Argumentos used</param>
+        /// <param name="args">Arguments used</param>
         static void Main(string[] args)
         {
-            // Valor escrito pelo utilizador que define o limite da contagem
             string s;
-            // Valor convertido do limite da contagem
             int nCount;
 
             Console.Write("Ate' que valor queres na 1º contagem? ");
