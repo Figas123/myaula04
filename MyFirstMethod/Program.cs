@@ -8,9 +8,9 @@ namespace MyAula04
 {
     class MyClass
     {
-        static void CountTo10()
+        static void CountToN(int n)
         {
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine(i);
             }
@@ -18,12 +18,15 @@ namespace MyAula04
 
         static void Main(string[] args)
         {
-            Console.WriteLine("1º Contagem\n-------");
-            CountTo10();
+            Console.WriteLine("Ate' que valor queres contar?");
+            string s = Console.ReadLine();
+            int nCount = Convert.ToInt32(s);
+            Console.WriteLine("\n1º Contagem\n-------");
+            CountToN(nCount);
             Console.WriteLine("-------");
             Console.ReadKey();
             Console.WriteLine("2º Contagem\n-------");
-            CountTo10();
+            CountToN(nCount);
             Console.WriteLine("\n");
             Console.ReadKey();
         }
