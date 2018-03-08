@@ -10,7 +10,7 @@ namespace MyAula04
     {
         static void CountTo10()
         {
-            for(int i = 1; i <= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine(i);
             }
