@@ -8,6 +8,10 @@ namespace MyAula04
 {
     class MyClass
     {
+        /// <summary>
+        /// Meant to count incresingly from 1 untill n.
+        /// </summary>
+        /// <param name="n">Number set by user, its the limit to count too.</param>
         static void CountToN(int n)
         {
             for (int i = 1; i <= n; i++)
@@ -15,7 +19,10 @@ namespace MyAula04
                 Console.WriteLine(i);
             }
         }
-
+        /// <summary>
+        /// The body of the program, where the program starts and ends.
+        /// </summary>
+        /// <param name="args">Argumentos used</param>
         static void Main(string[] args)
         {
             // Valor escrito pelo utilizador que define o limite da contagem
